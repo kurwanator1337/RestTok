@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>RestTok</Title>
+    <Company>kurwanator1337</Company>
+    <PackageProjectUrl>https://github.com/kurwanator1337/RestTok</PackageProjectUrl>
+    <PackageTags>TikTok</PackageTags>
+    <Description>A little C# library that allows you to grab data from tiktok videos</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="108.0.2" />
+  </ItemGroup>
+
+</Project>
